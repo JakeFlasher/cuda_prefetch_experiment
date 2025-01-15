@@ -15,3 +15,7 @@ void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1)
 void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
 void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),smsp__inst_executed.sum,109309952.000000
 void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),smsp__inst_executed.sum,109309952.000000
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,8.6
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,8.6
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,8.6
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,8.6

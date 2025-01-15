@@ -71,3 +71,21 @@ smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,24.000000
 smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,22.000000
 smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,24.000000
 smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,25.000000
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,9.0
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,9.0
