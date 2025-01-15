@@ -1,0 +1,32 @@
+    1  wget https://developer.download.nvidia.com/compute/cuda/repos/ubuntu2204/x86_64/cuda-keyring_1.1-1_all.deb
+    2  sudo dpkg -i cuda-keyring_1.1-1_all.deb
+    3  sudo apt-get update
+    4  sudo apt install -y nvidia-driver-565
+    5  nvidia-smi
+    6  nvcc
+    7  sudo apt install -y cuda-toolkit-12-6
+    8  nvcc
+    9  vim .bashrc 
+   10  souce ~/.bashrc 
+   11  source ~/.bashrc 
+   12  nvcc
+   13  which nvcc
+   14  vim .bashrc 
+   15  source ~/.bashrc 
+   16  ncu
+   17  git clone https://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@github.com/JakeFlasher/cuda_prefetch_experiment.git
+   18  cd cuda_prefetch_experiment/
+   19  chmod +x *.sh
+   20  ./run.sh 
+   21  vim run.sh .
+   22  nvidia-smi --query-gpu=name --format=csv,noheader 2>/dev/null | head -n 1
+   23  vim run.sh 
+   24  vim run.sh .
+   25  ./run.sh 
+   26  vim kernel_test.cu
+   27  which ncu
+   28  ./run.sh --server /usr/local/cuda-12.6/bin/ncu
+   29  git add .
+   30  git commit -m "h100"
+   31  git config --global user.name "jakeflasher"
+   32  history > tmp

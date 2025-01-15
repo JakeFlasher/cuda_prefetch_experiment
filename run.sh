@@ -98,6 +98,7 @@ mkdir -p "$GPUNAME/ncu_reports"
 # You may extend or adjust these mappings as needed.
 declare -A GPU_CC_MAP=(
     ["NVIDIA H100"]="90"
+    ["NVIDIA H100 PCIe"]="90"
     ["NVIDIA L4"]="89"
     ["NVIDIA L40"]="89"
     ["NVIDIA A100"]="80"
