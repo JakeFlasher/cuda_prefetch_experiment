@@ -6,7 +6,7 @@
 #              an automatic lookup table to detect GPU architecture
 #              (compute capability) instead of a hard-coded sm value.
 #              It also continues even if an error occurs.
-# Author: [Your Name]
+# Author: Chengao Shi
 # Date: [Date]
 # -----------------------------------------------------------------
 
