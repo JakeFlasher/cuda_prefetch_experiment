@@ -1,0 +1,73 @@
+Kernel Name,Block Size,Grid Size,metric,Value
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),gpu__time_duration.sum,1.063136
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),gpu__time_duration.sum,2.146592
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),gpu__time_duration.sum,0.029664
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),gpu__time_duration.sum,0.003840
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),gpu__time_duration.sum,0.003840
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),gpu__time_duration.sum,0.003936
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),gpu__time_duration.sum,0.004032
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),gpu__time_duration.sum,0.004064
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),gpu__time_duration.sum,0.003808
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),dram__bytes_read.sum,13.112064
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),dram__bytes_read.sum,13.111808
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),dram__bytes_read.sum,13.112064
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),dram__bytes_read.sum,0.002816
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_read.sum,0.002816
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_read.sum,0.002816
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_read.sum,0.002816
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_read.sum,0.003072
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_read.sum,0.003072
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),dram__bytes_write.sum,3.328000
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),dram__bytes_write.sum,1.536000
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),dram__bytes_write.sum,700.160000
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),dram__bytes_write.sum,0.000000
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_write.sum,8.192000
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_write.sum,0.000000
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_write.sum,0.000000
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_write.sum,0.000000
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),dram__bytes_write.sum,0.000000
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,409600.000000
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,409600.000000
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,1429820.000000
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,0.000000
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,0.000000
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,0.000000
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,0.000000
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,0.000000
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,0.000000
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,409600.000000
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,409600.000000
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,409600.000000
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,1.000000
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,2.000000
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,2.000000
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,16.000000
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,16.000000
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,16.000000
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sector_hit_rate.pct,52.331106
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),lts__t_sector_hit_rate.pct,52.917246
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),lts__t_sector_hit_rate.pct,82.390674
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),lts__t_sector_hit_rate.pct,97.702344
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sector_hit_rate.pct,97.353063
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sector_hit_rate.pct,97.893969
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sector_hit_rate.pct,96.883364
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sector_hit_rate.pct,96.865445
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),lts__t_sector_hit_rate.pct,100.039614
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0
+kernel_A(double *, int, int),(64, 1, 1),(25600, 1, 1),smsp__inst_executed.sum,265523200.000000
+kernel_B(double *, int, int),(64, 1, 1),(25600, 1, 1),smsp__inst_executed.sum,265523200.000000
+kernel_C(double *, const double *, int),(64, 1, 1),(25600, 1, 1),smsp__inst_executed.sum,1126400.000000
+lltm_cuda_forward_kernel(float *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,11.000000
+smem_1(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,20.000000
+smem_2(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,24.000000
+smem_3(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,22.000000
+smem_4(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,24.000000
+smem_5(unsigned int *),(32, 1, 1),(1, 1, 1),smsp__inst_executed.sum,25.000000

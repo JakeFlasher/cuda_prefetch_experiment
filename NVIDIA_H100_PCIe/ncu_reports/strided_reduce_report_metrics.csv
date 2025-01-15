@@ -1,0 +1,17 @@
+Kernel Name,Block Size,Grid Size,metric,Value
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),gpu__time_duration.sum,573.408000
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),gpu__time_duration.sum,601.312000
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_read.sum,1.073767
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_read.sum,1.073771
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_write.sum,2.498560
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_write.sum,2.280960
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,41943040.000000
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,33554432.000000
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,4096.000000
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,4096.000000
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sector_hit_rate.pct,25.311759
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sector_hit_rate.pct,0.985831
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0.024103
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0.022218
+void prefetch_kernel_256<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),smsp__inst_executed.sum,109445120.000000
+void prefetch_kernel_0<8, 64>(const float *, float *),(256, 1, 1),(4096, 1, 1),smsp__inst_executed.sum,109445120.000000
