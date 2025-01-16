@@ -1,0 +1,21 @@
+Kernel Name,Block Size,Grid Size,metric,Value
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),gpu__time_duration.sum,1.361472
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),gpu__time_duration.sum,1.360608
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_read.sum,1.073771
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_read.sum,1.073743
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_write.sum,17.920000
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),dram__bytes_write.sum,20.224000
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,33554432.000000
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read.sum,33554432.000000
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,4096.000000
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_write.sum,4096.000000
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sector_hit_rate.pct,24.722654
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sector_hit_rate.pct,24.703033
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0.074951
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),sm__pipe_tensor_op_hmma_cycles_active.avg.pct_of_peak_sustained_active,0.074929
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),smsp__inst_executed.sum,109400064.000000
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),smsp__inst_executed.sum,109400064.000000
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,8.0
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_hit,8.0
+void prefetch_kernel_256<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,8.0
+void prefetch_kernel_0<(int)8, (int)64>(const float *, float *),(256, 1, 1),(4096, 1, 1),lts__t_sectors_srcunit_tex_op_read_lookup_miss,8.0
