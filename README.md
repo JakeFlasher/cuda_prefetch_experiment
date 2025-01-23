@@ -43,6 +43,7 @@ Install the CUDA Toolkit, which includes the NVIDIA Compiler (`nvcc`) and other 
 
 ```bash
 sudo apt-get install -y cuda-toolkit
+sudo apt-get -y install cudnn9-cuda-12 (for CUTLASS)
 ```
 
 *If the above command doesn't work, try:*
