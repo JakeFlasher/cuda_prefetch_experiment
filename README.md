@@ -47,13 +47,14 @@ The PATH variable needs to include export PATH=/usr/local/cuda-12.8/bin${PATH:+:
 To add this path to the PATH variable:
 
 ```bash
-export PATH=/usr/local/cuda-12.6/bin${PATH:+:${PATH}}
-In addition, when using the runfile installation method, the LD_LIBRARY_PATH variable needs to contain /usr/local/cuda-12.8/lib64 on a 64-bit system, or /usr/local/cuda-12.8/lib on a 32-bit system
+export PATH=/usr/local/cuda-12.8/bin${PATH:+:${PATH}}
 ```
+In addition, when using the runfile installation method, the LD_LIBRARY_PATH variable needs to contain /usr/local/cuda-12.8/lib64 on a 64-bit system, or /usr/local/cuda-12.8/lib on a 32-bit system
+
 To change the environment variables for 64-bit operating systems:
 
 ```bash
-export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64\
+export LD_LIBRARY_PATH=/usr/local/cuda-12.8/lib64\
                          ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
 ```
 To change the environment variables for 32-bit operating systems:
