@@ -69,7 +69,23 @@ Built on Mon_Feb_14_19:10:22_PST_2023
 Cuda compilation tools, release 11.x, V11.x.xx
 Build cuda_11.x.r11.x/compiler.32414927_0
 ```
+##### 4.1. Environment Setup
+The PATH variable needs to include export PATH=/usr/local/cuda-12.8/bin${PATH:+:${PATH}}. Nsight Compute has moved to /opt/nvidia/nsight-compute/ only in rpm/deb installation method. When using .run installer it is still located under /usr/local/cuda-12.6/.
 
+To add this path to the PATH variable:
+
+export PATH=/usr/local/cuda-12.6/bin${PATH:+:${PATH}}
+In addition, when using the runfile installation method, the LD_LIBRARY_PATH variable needs to contain /usr/local/cuda-12.8/lib64 on a 64-bit system, or /usr/local/cuda-12.8/lib on a 32-bit system
+
+To change the environment variables for 64-bit operating systems:
+
+export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib64\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+To change the environment variables for 32-bit operating systems:
+
+export LD_LIBRARY_PATH=/usr/local/cuda-12.6/lib\
+                         ${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+Note that the above paths change when using a custom install path with the runfile installation method.
 #### 5. Install Nsight Compute (Optional but Recommended)
 
 Nsight Compute is NVIDIA's interactive kernel profiler for CUDA applications.
