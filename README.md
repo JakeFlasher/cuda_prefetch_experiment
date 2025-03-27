@@ -101,6 +101,7 @@ Nsight Compute is NVIDIA's interactive kernel profiler for CUDA applications.
 
    ```bash
    sudo ./nsight-compute*.run
+   echo 'export PYTHONPATH=/usr/local/NVIDIA-Nsight-Compute/extras/python/:$PYTHONPATH' >> ~/.bashrc
    ```
 
 4. **Verify Installation**
